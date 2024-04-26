@@ -3,6 +3,7 @@ public class Main {
         System.out.println("Hello!");
         System.out.println("Hello!");
 
+        System.out.println("3 * 8 = " + getGop(3, 8));
         System.out.println(getSum(1, 2));
         System.out.println(getSumSum(1, 2, 3));
     }
@@ -13,5 +14,13 @@ public class Main {
 
     public static int getSumSum(int a, int b, int c) {
         return a + b + c;
+    }
+
+    public static int getGop(int a, int b){
+        return a * b;
+    }
+
+    public static int getDivide(int a, int b) {
+        return a / b;
     }
 }
