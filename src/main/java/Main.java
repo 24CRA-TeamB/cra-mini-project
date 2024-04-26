@@ -3,4 +3,8 @@ public class Main {
         System.out.println("Hello!");
         System.out.println("Hello!");
     }
+
+    public static int getMinus(int a, int b) {
+        return a - b;
+    }
 }
