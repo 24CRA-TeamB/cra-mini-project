@@ -7,4 +7,8 @@ public class Main {
     public static int getGop(int a, int b){
         return a * b;
     }
+
+    public static int getDivide(int a, int b) {
+        return a / b;
+    }
 }
