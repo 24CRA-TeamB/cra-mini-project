@@ -9,6 +9,10 @@ public class Main {
         System.out.println(getSumSum(1, 2, 3));
     }
 
+    public static int getMinus(int a, int b) {
+        return a - b;
+    }
+
     public static int getSum(int a, int b) {
         return a + b;
     }
@@ -28,5 +32,4 @@ public class Main {
     private static int getZegop(int a) {
         return a*a;
     }
-
 }
